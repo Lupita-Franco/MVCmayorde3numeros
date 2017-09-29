@@ -10,7 +10,6 @@ public class ControllerMenor {
     
     public ControllerMenor(ModelMenor model_mayor, ViewMenor view_mayor){
         this.model_menor = model_mayor;
-
         this.view_menor = view_mayor;
         view_menor.jbtn_menor.addActionListener(e->jbtn_menor_click());
         initview();
